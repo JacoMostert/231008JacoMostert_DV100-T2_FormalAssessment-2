@@ -1,0 +1,208 @@
+body{
+    padding: 0;
+}
+
+.form{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form h3{
+   margin-bottom: 15px;
+}
+
+.topPizzas{
+    width: 50%;
+    margin:  0 auto;
+    margin-top: 50px;
+    height: 600px;
+}
+
+#pizzaOut h1{
+    text-align: center;
+    margin-top: 200px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+
+.left{
+    width: 60%;
+    float: left;
+    height: 130px;
+}
+
+.button-con{
+    width: 100%;
+    float: left;
+}
+
+.right{
+    height: 130px;
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+
+.orderCost{
+    background-color: #f7f7f7;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card{
+    width: 29%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    float: left;
+    margin: 2%;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+select{
+    margin-bottom: 15px;
+}
+
+.btn{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.base-check{
+    width: 130px;
+    float: left;
+}
+
+.base-options{
+    width: 33%;
+    height: 100px;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+.base-options h3{
+   margin-left:  -20px;
+   margin-bottom: 20px;
+}
+
+.toppings{
+    width: 66%;
+    margin-top: 20px;
+    float: left;
+    padding-left: 20px;
+}
+
+.toppings h3{
+    margin-left:  -20px;
+    margin-bottom: 20px;
+}
+
+.top-check{
+    width: 33%;
+    float: left;
+}
+
+
+.output{
+ padding-right: 5%;
+ padding-left: 3%;
+ padding-top: 50px;
+}
+
+.outHeader h3{
+    float: left;
+}
+
+.totalOrder{
+    float: left;
+    margin-left: 48%;
+}
+
+.totalOrder h3{
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.checkLeft{
+    width: 70%;
+    height: 100vh;
+    float: left;
+    padding-left: 5%;
+}
+
+.checkLeft h1{
+    margin-top: 50px;
+}
+
+.checkLeft h3{
+    margin: 0;
+    padding: 0;
+}
+
+.checkRight {
+    width: 30%;
+    height: 100vh;
+    float: left;
+    background-color: lightgray;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.checkRight input {
+    width: 50%;
+    margin:  0 auto;
+}
+
+.checkRight h2{
+   font-size: 50px;
+   font-weight: 100;
+}
+
+.checkRight h3{
+    margin-top: 50px;
+    font-weight: 100;
+ }
+
+ .orderLine{
+    width: 90%;
+    height: 50px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-top: 20px;
+ }
+
+ .orderLine p{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    padding-top: 13px ;
+ }
+
+ .size{
+    width: 100%;
+    height: 80px;
+    padding-left: 5%;
+ }
+
+ .size p{
+    margin-left: -5%;
+ }
+
+ .ingredients{
+    width: 100%;
+    padding-left: 5%;
+ }

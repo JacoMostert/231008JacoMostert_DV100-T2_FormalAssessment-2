@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/js/index.js"></script>
+
+    <title>Formal Assessment Two: Class Three</title>
+  </head>
+
+  <body>
+
+    <div class="row">
+      <form class="col-6 form">
+        <h3>The Smoothie Shack</h3>
+        <input type="text" class="form-control" placeholder="Name your Smoothie" id="smoothie" >
+        
+        <div class="size">
+          <strong><p>Smoothie Size</p></strong>
+
+          <div class="base-check">
+            <input class="form-check-input" type="radio" name="baseRadio" id="small" value="Small" data-cost="20">
+            <label class="form-check-label" for="small">
+              Small Cup
+            </label>
+          </div>
+
+          <div class="base-check">
+            <input class="form-check-input" type="radio" name="baseRadio" id="medium" value="Medium" data-cost="30">
+            <label class="form-check-label" for="medium">
+              Medium Cup
+            </label>
+          </div>
+
+          <div class="base-check">
+            <input class="form-check-input" type="radio" name="baseRadio" id="large" value="Large" data-cost="40">
+            <label class="form-check-label" for="large">
+              Large Cup 
+            </label>
+          </div>
+
+          <div class="base-check">
+            <input class="form-check-input" type="radio" name="baseRadio" id="mega" value="Mega" data-cost="60">
+            <label class="form-check-label" for="mega">
+              Mega Cup 
+            </label>
+          </div>
+
+        </div>
+
+        
+
+        <strong><p>Ingredients</p></strong>
+       
+        <div class="ingredients">
+          <div class="top-check">
+            <input class="form-check-input" name="ingredients" type="checkbox" value="cucumber" id="cucumber" data-cost="20">
+            <label class="form-check-label" for="cucumber">
+              Cucumber
+            </label>
+          </div>
+  
+          <div class="top-check">
+            <input class="form-check-input" name="ingredients" type="checkbox" value="carrots" id="carrots" data-cost="14">
+            <label class="form-check-label" for="carrots">
+              Carrots
+            </label>
+          </div>
+  
+          <div class="top-check">
+            <input class="form-check-input" name="ingredients" type="checkbox" value="celery" id="celery" data-cost="20">
+            <label class="form-check-label" for="celery">
+              Celery 
+            </label>
+          </div>
+  
+          <div class="top-check">
+            <input class="form-check-input" name="ingredients" type="checkbox" value="berries" id="berries" data-cost="30">
+            <label class="form-check-label" for="berries">
+              Blue Berries  
+            </label>
+          </div>
+  
+          <div class="top-check">
+            <input class="form-check-input" name="ingredients" type="checkbox" value="kale" id="kale" data-cost="20">
+            <label class="form-check-label" for="kale">
+              Kale
+            </label>
+          </div>
+  
+          <div class="top-check">
+            <input class="form-check-input" name="ingredients" type="checkbox" value="pineapple" id="pineapple" data-cost="70">
+            <label class="form-check-label" for="pineapple">
+              Pineapple  
+            </label>
+          </div>
+        </div>
+
+        
+        
+        <button class="btn btn-primary" type="button">Make My Smoothie</button>
+      </form>
+      
+      <div class="col-6 output">
+        <h3>Smoothie Order List</h3>
+        <div class="row" id="studentOut">
+
+          <!-- This is the example element -->
+          <div class="col-6">
+            <div class="card" style="width: 100%;">
+              <div class="card-body">
+                <h5 class="card-title">Smoothie Name</h5>
+                <p>Size: value</p>
+                <p>Ingredients: value</p>
+                <p>Total Cost: value</p>
+              </div>
+            </div>
+          </div>
+    
+        </div> 
+      </div>
+    </div>
+
+    
+    
+  </body>
+</html>
+
